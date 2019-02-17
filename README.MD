@@ -1,3 +1,8 @@
-**Чекни вот этот README:**
+# Shopnim 
 
-    ./defualt_theme/README.MD
+Структура данных Opencart3:
+
+    ./Opencart3/README.MD
+
+### Задачи на данный момент
+**разработка всех страниц в html формате**
