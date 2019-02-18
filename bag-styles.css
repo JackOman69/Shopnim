@@ -35,7 +35,8 @@ a {
 /* Header styles */
 
 header {
-  position: fixed;
+  position: sticky;
+  top: 0;
   width: 100%;
 }
 
@@ -65,13 +66,14 @@ header {
 
 /* End of header styles */
 
+/* Side-search styles */
 .menu-wrap {
-  background-color: #ffffff;
   position: absolute;
+  background-color: #ffffff;
   top: 0;
   height: 100%;
   width: 21em;
-  left: 54.2em;
+  left: 55em;
   margin-left: 25em;
   transition: .25s;
   z-index: 9999;
@@ -81,12 +83,12 @@ header {
 #clear-cross {
   position: absolute;
   top: 0.2em;
-  right: 0;
+  right: 1em;
   cursor: pointer;
 }
 
 .shadow-overlay {
-  position:absolute;
+  position: absolute;
   box-shadow: 0 0 0 999em rgba(0,0,0, 0.3);
   z-index: 5;
   display: none;
@@ -106,9 +108,14 @@ header {
   border-bottom: 0.3em solid #90bf33;
 }
 
+/* End of side-search styles */
+
+/* Sidebar styles */
+
 #sidebar {
-  top: 3.5em;
-  position: fixed;
+  position: sticky;
+  top: 4em;
+  height: calc(100vh - 4em);
 }
 
 .categories {
@@ -138,11 +145,12 @@ header {
   color: white !important;
 }
 
+/* End of sidebar styles */
+
+/* Main content styles */
+
 #main-content {
-  margin-top: 1em;
-  margin-left: 13em;
-  padding-top: 2em;
-  width: 100%;
+  margin-left: 1em;
   transition: 0.5s all;
 }
 
@@ -212,7 +220,13 @@ header {
   text-align: right;
 }
 
+/* End of main content styles */
+
+/* Footer styles */
+
 footer {
   height: 6em;
   padding-top: 2em;
 }
+
+/* End of footer styles */
