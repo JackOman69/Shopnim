@@ -13,6 +13,10 @@ a {
   border-color: #90bf33 !important;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 8px rgba(0, 0, 0, 0) !important;
 }
+
+.row {
+  margin: 0 !important;
+}
 /* End of general styles */
 
 /* Header styles */
@@ -20,7 +24,7 @@ a {
 header {
   position: fixed;
   width: 100%;
-  z-index: 90;
+  z-index: 4;
 }
 
 .header-icons a {
@@ -70,6 +74,15 @@ header {
   z-index: 10;
 }
 
+.shadow-hide {
+  box-shadow: 0;
+}
+
+.shadow-overlay {
+  box-shadow: 0 0 0 9999px rgba(0,0,0, 0.3);
+  z-index: 6666;
+}
+
 .menu-show {
   margin-left: 1.5em;
 }
@@ -78,7 +91,6 @@ header {
   width: 100%;
   height: 3em;
   padding-left: 10px;
-  outline: none;
 }
 
 .search-form input:focus {
@@ -129,16 +141,33 @@ header {
   transition: 0.5s all;
 }
 
-#main-content .garden {
-  padding-top: 5em;
+#main-content .content-header .right-column {
+  background-color: #90bf33;
+  color: white;
+  padding-top: 1.5em;
+  padding-left: 5.5em;
+  padding-right: 5.5em;
 }
 
-#main-content .row {
+#main-content .content-header .right-column p {
+  font-size: 1.6em;
+  padding-top: 1.5em;
+}
+
+#main-content .hot-goods {
+  margin-top: 2em;
+}
+
+#main-content .hot-goods .row:not(:first-child) {
   padding-top: 2em;
 }
 
-#main-content h2 {
-  padding-bottom: 0.5em;
+#main-content .all-offers {
+  margin-top: 5em;
+}
+
+#main-content .all-offers .row {
+  padding-top: 2em;
 }
 
 footer {
