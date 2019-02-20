@@ -1,0 +1,187 @@
+/* General styles */
+body {
+  overflow-x: hidden;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+  font-weight: 700;
+}
+
+.form-control:focus {
+  border-color: #90bf33 !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 8px rgba(0, 0, 0, 0) !important;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+.active {
+  background-color: #90bf33 !important;
+  color: white !important;
+}
+
+.btn {
+  border-radius: 0.5em !important;
+}
+/* End of general styles */
+
+/* Header styles */
+
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.header-icons a {
+  margin-left: 2em;
+}
+
+/* .header-icons .cart-number {
+  position: absolute;
+  right: 8em;
+  bottom: 1em;
+  font-size: 1.2em;
+  font-weight: 700;
+  background-color: #90bf33;
+  width: 1em;
+  border-radius: 0.5em;
+  text-align: center;
+} */
+
+.header-icons .search-button {
+  font-weight: 700;
+}
+
+.header-icons .search-button:hover {
+  border-color: #90bf33;
+}
+
+/* End of header styles */
+
+/* Side-search styles */
+.menu-wrap {
+  position: absolute;
+  background-color: #ffffff;
+  top: 0;
+  height: 100%;
+  width: 21em;
+  left: 55em;
+  margin-left: 25em;
+  transition: .25s;
+  z-index: 9999;
+  box-shadow: -0.5em 0 0.5em 0 rgba(0,0,0,0.02), 0  1.5em 0 rgba(0,0,0,0.08);
+}
+
+#clear-cross {
+  position: absolute;
+  top: 0.2em;
+  right: 1em;
+  cursor: pointer;
+}
+
+.shadow-overlay {
+  position: absolute;
+  box-shadow: 0 0 0 999em rgba(0,0,0, 0.3);
+  z-index: 5;
+  display: none;
+}
+
+.menu-show {
+  margin-left: 1.5em;
+}
+
+.search-form input {
+  width: 100%;
+  height: 3em;
+  padding-left: 10px;
+}
+
+.search-form input:focus {
+  border-bottom: 0.3em solid #90bf33;
+}
+
+/* End of side-search styles */
+
+/* Sidebar styles */
+
+#sidebar {
+  position: sticky;
+  top: 4em;
+  height: calc(100vh - 4em);
+}
+
+.categories {
+  padding-top: 0.5em;
+}
+
+.category-item {
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+.category-item:not(:first-child) {
+  margin-top: 0.5em;
+}
+
+.category-item:hover {
+  background-color: #90bf33;
+  transition: 0.4s all;
+}
+
+.category-item:hover a{
+  color: white !important;
+  transition: 0.3s all;
+}
+
+.categories .active a {
+  color: white !important;
+}
+
+/* End of sidebar styles */
+
+/* Main content styles */
+
+#main-content {
+  margin-left: 1em;
+  margin-top: 2em;
+  transition: 0.5s all;
+}
+
+#main-content .row .product-title {
+  padding-top: 0.5em;
+}
+
+#main-content .row .product {
+  padding-left: 2em;
+}
+
+#main-content .row .product-price {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+#main-content .row .add-to-bag {
+  padding: 1em;
+  font-weight: 700;
+  background-color: #90bf33;
+  color: white !important;
+}
+
+/* End of main content styles */
+
+/* Footer styles */
+
+footer {
+  height: 6em;
+  top: 0;
+}
+
+/* End of footer styles */
