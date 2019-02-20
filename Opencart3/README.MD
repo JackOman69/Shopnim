@@ -1,8 +1,8 @@
 # Стандартная тема OpenCart 3
 
 **Вся структура opencart нахоться здесь**
-
-### Маленькое разнеснение где, что находиться
+ 
+## Маленькое разнеснение где, что находиться
 
 Полезные ссылки для того чтобы разобраться в структуре данных:
 
@@ -11,4 +11,23 @@
 
 ## Мое разнеснение всех дирректорий
 
-Пока что это полный ахтун
+#### Нахождение основных модулей:
+
+    ./catalog/view/theme/defualt/common/
+
+**Header**
+
+    header.php
+    ./catalog/controller/common/header.php
+
+    header.twig
+    ./catalog/view/theme/default/template/common/header.twig
+
+**Footer**
+
+    footer.php
+    ./catalog/controller/common/footer.php
+
+    footer.twig
+    ./catalog/view/theme/default/template/common/footer.twig
+
