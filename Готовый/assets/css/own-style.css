@@ -2,6 +2,18 @@
   text-transform: unset;
 }
 
+header .top-search-holder .search-area .search-button {
+  border-radius: 4px;
+  font-weight: bold;
+  padding: 15px 15px 13px 15px;
+  display: inline-block;
+  line-height: 20px;
+  border: none;
+  font-size: 15px;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
 #footer .sub-form-row button {
     padding: 19px 21px 20px 21px !important;
 }
