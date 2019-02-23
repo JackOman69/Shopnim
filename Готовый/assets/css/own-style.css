@@ -14,6 +14,16 @@ header .top-search-holder .search-area .search-button {
   transition: 0.3s ease;
 }
 
+.void-basket {
+  padding-bottom: 2em;
+  padding-top: 1em;
+  text-align: center;
+}
+
+#top-banner-and-menu {
+  margin-bottom: 10em;
+}
+
 #footer .sub-form-row button {
     padding: 19px 21px 20px 21px !important;
 }
