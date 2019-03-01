@@ -1,4 +1,4 @@
 <?php
 // Heading
-$_['heading_title'] = 'Layered Navigation';
-$_['text_byprice'] = 'Price Filter';
+$_['heading_title'] = 'Многоуровневая навигация';
+$_['text_byprice'] = 'Ценовой фильтр';

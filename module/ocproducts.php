@@ -1,24 +1,24 @@
 <?php
-$_['heading_title']    = 'Products module';
+$_['heading_title']    = 'Модуль продуктов';
 
 // Text
-$_['text_empty']    = 'There is no product';
-$_['text_years']    = 'Y';
-$_['text_months']    = 'M';
-$_['text_weeks']    = 'W';
-$_['text_days']    = 'D';
-$_['text_hrs']    = 'H';
-$_['text_mins']    = 'M';
-$_['text_secs']    = 'S';
+$_['text_empty']    = 'Здесь нет продуктов';
+$_['text_years']    = 'Г';
+$_['text_months']    = 'М';
+$_['text_weeks']    = 'Н';
+$_['text_days']    = 'Д';
+$_['text_hrs']    = 'Ч';
+$_['text_mins']    = 'М';
+$_['text_secs']    = 'С';
 
-$_['text_year']    = 'Y';
-$_['text_month']    = 'M';
-$_['text_week']    = 'W';
-$_['text_day']    = 'D';
-$_['text_hr']    = 'H';
-$_['text_min']    = 'M';
-$_['text_sec']    = 'S';
+$_['text_year']    = 'Г';
+$_['text_month']    = 'М';
+$_['text_week']    = 'Н';
+$_['text_day']    = 'Д';
+$_['text_hr']    = 'Ч';
+$_['text_min']    = 'М';
+$_['text_sec']    = 'С';
 
-$_['price_label']    = 'Price:';
-$_['text_stock']    = 'Available:';
-$_['text_instock']    = 'In Stock';
+$_['price_label']    = 'Цена:';
+$_['text_stock']    = 'Доступно:';
+$_['text_instock']    = 'В наличии';

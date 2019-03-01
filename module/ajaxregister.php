@@ -1,48 +1,48 @@
 <?php
 
 // Heading
-$_['heading_title']        = 'Register Account';
+$_['heading_title']        = 'Зарегистрировать аккаунт';
 
 // Text
-$_['text_account']         = 'Account';
-$_['text_register']        = 'Register';
-$_['text_account_already'] = 'If you already have an account with us, please login at the <a onclick="ocajaxlogin.appendLoginForm()" href="javascript:void(0);">login form</a>.';
-$_['text_your_details']    = 'Your Personal Details';
-$_['text_your_address']    = 'Your Address';
-$_['text_newsletter']      = 'Newsletter';
-$_['text_your_password']   = 'Your Password';
-$_['text_agree']           = 'I have read and agree to the <a href="%s" class="agree"><b>%s</b></a>';
+$_['text_account']         = 'Аккаунт';
+$_['text_register']        = 'Регистрация';
+$_['text_account_already'] = 'Если у вас уже есть аккаунт, пожалуйста войдите <a onclick="ocajaxlogin.appendLoginForm()" href="javascript:void(0);">login form</a>.';
+$_['text_your_details']    = 'Ваши персональные данные';
+$_['text_your_address']    = 'Ваш адрес';
+$_['text_newsletter']      = 'Новостная рассылка';
+$_['text_your_password']   = 'Ваш пароль';
+$_['text_agree']           = 'Я прочитал <a href="%s" class="agree"><b>%s</b></a> и согласен с ними';
 
 // Entry
-$_['entry_customer_group'] = 'Customer Group';
-$_['entry_firstname']      = 'First Name';
-$_['entry_lastname']       = 'Last Name';
-$_['entry_email']          = 'E-Mail';
-$_['entry_telephone']      = 'Telephone';
-$_['entry_fax']            = 'Fax';
-$_['entry_company']        = 'Company';
-$_['entry_address_1']      = 'Address 1';
-$_['entry_address_2']      = 'Address 2';
-$_['entry_postcode']       = 'Post Code';
-$_['entry_city']           = 'City';
-$_['entry_country']        = 'Country';
-$_['entry_zone']           = 'Region / State';
-$_['entry_newsletter']     = 'Subscribe';
-$_['entry_password']       = 'Password';
-$_['entry_confirm']        = 'Password Confirm';
+$_['entry_customer_group'] = 'Группа клиентов';
+$_['entry_firstname']      = 'Имя';
+$_['entry_lastname']       = 'Фамилия';
+$_['entry_email']          = 'E-Mail адрес';
+$_['entry_telephone']      = 'Номер телефона';
+$_['entry_fax']            = 'Факс';
+$_['entry_company']        = 'Компания';
+$_['entry_address_1']      = 'Адрес 1';
+$_['entry_address_2']      = 'Адрес 2';
+$_['entry_postcode']       = 'Почтовый индекс';
+$_['entry_city']           = 'Город';
+$_['entry_country']        = 'Страна';
+$_['entry_zone']           = 'Регион / Штат';
+$_['entry_newsletter']     = 'Подписка на рассылку';
+$_['entry_password']       = 'Пароль';
+$_['entry_confirm']        = 'Повторите пароль';
 
 // Error
-$_['error_exists']         = 'Warning: E-Mail Address is already registered!';
-$_['error_firstname']      = 'First Name must be between 1 and 32 characters!';
-$_['error_lastname']       = 'Last Name must be between 1 and 32 characters!';
-$_['error_email']          = 'E-Mail Address does not appear to be valid!';
-$_['error_telephone']      = 'Telephone must be between 3 and 32 characters!';
-$_['error_address_1']      = 'Address 1 must be between 3 and 128 characters!';
-$_['error_city']           = 'City must be between 2 and 128 characters!';
-$_['error_postcode']       = 'Postcode must be between 2 and 10 characters!';
-$_['error_country']        = 'Please select a country!';
-$_['error_zone']           = 'Please select a region / state!';
-$_['error_custom_field']   = 'This field is required!';
-$_['error_password']       = 'Password must be between 4 and 20 characters!';
-$_['error_confirm']        = 'Password confirmation does not match password!';
-$_['error_agree']          = 'Warning: You must agree to the %s!';
+$_['error_exists']         = 'Внимание: эта почта уже зарегистрирована!';
+$_['error_firstname']      = 'Имя должно содержать от 1 до 32 знаков!';
+$_['error_lastname']       = 'Фамилия должна содержать от 1 до 32 знаков!';
+$_['error_email']          = 'Почта указана неверно!';
+$_['error_telephone']      = 'Телефон должен содержать от 3 до 32 знаков';
+$_['error_address_1']      = 'Адрес 1 должен содержать от 3 до 128 знаков!';
+$_['error_city']           = 'Город должен содержать от 2 до 128 знаков!';
+$_['error_postcode']       = 'Почтовый индекс должен содержать от 2 до 10 знаков!';
+$_['error_country']        = 'Пожалуйста выберите страну!';
+$_['error_zone']           = 'Пожалуйста выберите Регион / Штат!';
+$_['error_custom_field']   = 'Это поле обязательно!';
+$_['error_password']       = 'Пароль должен содержать от 4 до 20 знаков!';
+$_['error_confirm']        = 'Подтвержденный пароль не соответствует оригиналу!';
+$_['error_agree']          = 'Внимание: Вы должны быть согласны с %s!';

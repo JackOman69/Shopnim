@@ -1,30 +1,30 @@
 <?php
 // Heading 
-$_['heading_title'] 	 = 'Newsletter';
-$_['heading_title2'] 	 = 'Sign up for newsletters';
-$_['heading_title3'] 	 = 'Special Ofers For Subscribers';
-$_['text_colose'] 	 = 'Close';
+$_['heading_title'] 	 = 'Рассылка новостей';
+$_['heading_title2'] 	 = 'Подписаться на рассылку';
+$_['heading_title3'] 	 = 'Специальные предложения для подписчиков';
+$_['text_colose'] 	 = 'Закрыть';
 
-$_['newletter_des'] 	 = 'Subscribe to our newsletters now and stay up-to-date with new collections, the latest lookbooks and exclusive offers.';
-$_['newletter_des2'] 	 = '..AND RECEIVE $29 COUPON FOR FIRST SHOPPING';
+$_['newletter_des'] 	 = 'Подпишитесь на нашу новостную рассылку сейчас и будьте в курсе новых коллекций, альбомов и эксклюзивных предложений.';
+$_['newletter_des2'] 	 = '..А также получите купон в 29$ на вашу первую покупку!';
 
 //Fields
-$_['entry_email'] 		 = 'Enter you email address here...';
-$_['entry_name'] 		 = 'Name';
+$_['entry_email'] 		 = 'Введите свой E-Mail адрес...';
+$_['entry_name'] 		 = 'Имя';
 
 //Buttons
-$_['entry_button'] 		 = 'Subscribe';
-$_['entry_unbutton'] 	 = 'Unsubscribe';
+$_['entry_button'] 		 = 'Подписаться';
+$_['entry_unbutton'] 	 = 'Отписаться';
 
 //text
-$_['text_subscribe'] 	 = 'Subscribe Here';
+$_['text_subscribe'] 	 = 'Подпишитесь здесь';
 
-$_['mail_subject']   	 = 'NewsLetter Subscribe';
+$_['mail_subject']   	 = 'Подписаться на новостную рассылку';
 
 //Messages
-$_['error_invalid'] 	 = 'Error : Please enter valid email address.';
-$_['subscribe']	    	 = 'Success : Subscribed Successfully.';
-$_['unsubscribe'] 	     = 'Success : Unsubscribed Successfully.';
-$_['alreadyexist'] 	     = 'Error : Email already exist.';
-$_['notexist'] 	    	 = 'Error : Email doesn\'t exist.';
-$_['entry_show_again']   =  "Don't show this popup again";
+$_['error_invalid'] 	 = 'Ошибка : Пожалуйста укажите верный E-Mail адрес.';
+$_['subscribe']	    	 = 'Успех : Подписка оформлена.';
+$_['unsubscribe'] 	     = 'Успех : Вы отписались.';
+$_['alreadyexist'] 	     = 'Ошибка : Такой E-Mail адрес уже существует.';
+$_['notexist'] 	    	 = 'Ошибка : Такой E-Mail адрес не существует.';
+$_['entry_show_again']   =  "Не показывать это уведомление";

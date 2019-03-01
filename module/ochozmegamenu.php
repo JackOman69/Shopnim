@@ -1,8 +1,8 @@
 <?php
 // Heading 
 $_['heading_title'] = 'Hozmegamenu';
-$_['category_title'] = 'Categories';
-$_['menu_title'] = 'Menu';
+$_['category_title'] = 'Категории';
+$_['menu_title'] = 'Меню';
 
 // Text
-$_['text_reviews']  = 'Based on %s reviews.';
+$_['text_reviews']  = 'Основано на %s отзывов.';

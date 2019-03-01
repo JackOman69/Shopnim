@@ -1,7 +1,7 @@
 <?php
 // Text
-$_['text_category']     = 'All Categories';
-$_['text_empty']        = 'There is no product that matches the search criteria.';
-$_['text_tax']        = 'Ex Tax:';
-$_['text_search'] = 'Search entire store here ...';
-$_['button_search'] = 'Search';
+$_['text_category']     = 'Все категории';
+$_['text_empty']        = 'Нет продуктов по выбранным критериям поиска.';
+$_['text_tax']        = 'Без налога:';
+$_['text_search'] = 'Искать во всем магазине ...';
+$_['button_search'] = 'Поиск';

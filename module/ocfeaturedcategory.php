@@ -1,4 +1,4 @@
 <?php
 // Heading
-$_['heading_title'] = 'Featured Categories';
-$_['view_more'] = 'Shop This Brand';
+$_['heading_title'] = 'Избранные категории';
+$_['view_more'] = 'Делать покупки у этого бренда';

@@ -1,22 +1,22 @@
 <?php
-$_['heading_title']    = 'Tabs produts';
+$_['heading_title']    = 'Вкладки продуктов';
 
 // Text
-$_['text_empty']    = 'There is no product';
-$_['text_years']    = 'Years';
-$_['text_months']    = 'Months';
-$_['text_weeks']    = 'Weeks';
-$_['text_days']    = 'Days';
-$_['text_hrs']    = 'Hrs';
-$_['text_mins']    = 'Mins';
-$_['text_secs']    = 'Secs';
+$_['text_empty']    = 'Здесь нет продуктов';
+$_['text_years']    = 'Годы';
+$_['text_months']    = 'Месяцы';
+$_['text_weeks']    = 'Недели';
+$_['text_days']    = 'Дни';
+$_['text_hrs']    = 'Часы';
+$_['text_mins']    = 'Минуты';
+$_['text_secs']    = 'Секунды';
 
-$_['text_year']    = 'Year';
-$_['text_month']    = 'Month';
-$_['text_week']    = 'Week';
-$_['text_day']    = 'Day';
-$_['text_hr']    = 'Hr';
-$_['text_min']    = 'Min';
-$_['text_sec']    = 'Sec';
+$_['text_year']    = 'Год';
+$_['text_month']    = 'Месяц';
+$_['text_week']    = 'Неделя';
+$_['text_day']    = 'День';
+$_['text_hr']    = 'Час';
+$_['text_min']    = 'Минута';
+$_['text_sec']    = 'Секунда';
 
-$_['price_label']    = 'Price:';
+$_['price_label']    = 'Цена:';

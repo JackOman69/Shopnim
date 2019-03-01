@@ -1,25 +1,25 @@
 <?php
 
 // Heading
-$_['heading_title']  = 'Ajax Login';
+$_['heading_title']  = 'Войти в Ajax';
 
 // Text
-$_['text_account']                 = 'Account';
-$_['text_login']                   = 'Login';
-$_['text_new_customer']            = 'New Customer';
-$_['text_register']                = 'Register Account';
-$_['text_register_account']        = 'By creating an account you will be able to shop faster, be up to date on an order\'s status, and keep track of the orders you have previously made.';
-$_['text_returning_customer']      = 'Returning Customer';
-$_['text_i_am_returning_customer'] = 'I am a returning customer';
-$_['text_forgotten']               = 'Forgotten Password';
-$_['button_register_link']         = 'Create an account';
-$_['success_message']              = 'Congratulation! Login Successfully';
+$_['text_account']                 = 'Аккаунт';
+$_['text_login']                   = 'Логин';
+$_['text_new_customer']            = 'Новый клиент';
+$_['text_register']                = 'Зарегистрировать аккаунт';
+$_['text_register_account']        = 'Создав аккаунт, вы сможете делать покупки быстрее, проверять статус заказа и постоянно его отслеживать.';
+$_['text_returning_customer']      = 'Постоянный клиент';
+$_['text_i_am_returning_customer'] = 'Я постоянный клиент';
+$_['text_forgotten']               = 'Забыл пароль';
+$_['button_register_link']         = 'Создать аккаунт';
+$_['success_message']              = 'Поздравляю! Вы успешно вошли в систему.';
 
 // Entry
-$_['entry_email']                  = 'E-Mail Address';
-$_['entry_password']               = 'Password';
+$_['entry_email']                  = 'E-Mail адрес';
+$_['entry_password']               = 'Пароль';
 
 // Error
-$_['error_login']                  = 'Warning: No match for E-Mail Address and/or Password.';
-$_['error_attempts']               = 'Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.';
-$_['error_approved']               = 'Warning: Your account requires approval before you can login.';
+$_['error_login']                  = 'Внимание! Ваш пароль или логин не совпадают';
+$_['error_attempts']               = 'Вы достигли максимального количество попыток входа в аккаунт. Повторите попытку через 1 час.';
+$_['error_approved']               = 'Подтвердите ваш аккаунт, прежде чем войти';

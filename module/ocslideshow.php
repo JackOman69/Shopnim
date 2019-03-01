@@ -1,2 +1,2 @@
 <?php
-$_['text_readmore'] = 'shop now';
+$_['text_readmore'] = 'Делать покупки сейчас';
