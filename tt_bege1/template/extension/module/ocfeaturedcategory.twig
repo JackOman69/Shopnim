@@ -1,0 +1,123 @@
+<div class="featured-categories-container">
+<div class="featured-categories-slider module-title"><h2>{{ heading_title }}</h2></div>
+	{% set count, rows = 0, config_slide.f_rows %}
+	{% if not rows %}
+		{% set rows = 1 %}
+	{% endif %}
+	<div class="owl-featured-categories">
+		<div class="row">
+			<div class="col-cate col-sm-4 col-xs-12">
+				<ul class="nav nav-tabs thumbs">
+					{% set ccount = 0 %}
+					{% for category in categories %}
+						<li class="tabs {% if ccount == 0 %} active {% endif %}">
+							<a href="#tab-{{ category.category_id }}" data-toggle="tab">
+									<img src="{{ category.homethumb_image }}" alt="" />
+									<h2 class="name">{{ category.name }}</h2>
+							</a>
+						</li>
+						{% set ccount = ccount + 1 %}
+					{% endfor %}
+				</ul>
+			</div>
+			<div class="col-subcate col-sm-8 col-xs-12">
+				<div class="owl-container">
+					<div class="tab-content">
+						{% set ccount = 0 %}
+						{% for category in categories %}
+							<div class="tab-pane {% if ccount == 0 %} active {% endif %}" id="tab-{{ category.category_id }}">
+								<div class="item">
+									<div class="item-inner">
+										<div class="fcategory-content">
+											<div class="content-thumb">
+												{% if config_slide.show_description %}
+													<p class="dec">{{ category.description }}</p>
+												{% endif %}
+												{% if config_slide.show_sub_category %}
+													{% set number_sub = config_slide.number_sub %}
+													{% if category.children %}
+														{% set sub_count = 0 %}
+														<ul class="sub-featured-categories owl-carousel owl-theme">
+															{% for subcate in category.children %}
+																{% if sub_count < number_sub %}
+																<li>
+																	<div class="col col-des col-sm-7 col-xs-12">
+																		<h2 class="subcate-name">{{ subcate.name }}</h2>
+																		<p class="subcate-des">{{ subcate.description }}</p>
+																		<a href="{{ subcate.href }}" class="view-more">{{ view_more }}</a>
+																	</div>
+																	<div class="col col-image col-sm-5 col-xs-12">
+																		<img src="{{ subcate.homethumb_image }}" alt="image" />
+																	</div>
+																</li>
+																{% endif %}
+																{% set sub_count = sub_count + 1 %}
+															{% endfor %}
+														</ul>
+													{% endif %}
+												{% endif %}
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							{% set ccount = ccount + 1 %}
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+{% if config_slide.use_slider %}
+<script type="text/javascript">
+$(document).ready(function() { 
+  $(".sub-featured-categories").owlCarousel({
+	autoplaySpeed: {% if config_slide.f_speed %} {{ config_slide.f_speed }} {% else %} 3000 {% endif %},
+	navSpeed: {% if config_slide.f_speed %} {{ config_slide.f_speed }} {% else %} 3000 {% endif %},
+	dotsSpeed: {% if config_slide.f_speed %} {{ config_slide.f_speed }} {% else %} 3000 {% endif %},
+	autoplay : {% if config_slide.autoplay %} true {% else %} false {% endif %},
+	nav: {% if config_slide.f_show_nextback %} true {% else %} false {% endif %},
+	dots: {% if config_slide.f_show_ctr %} true {% else %} false {% endif %},
+	autoplayHoverPause : false,
+	loop : true,
+	responsive:{
+		0:{
+			items: 1,
+			nav: false
+		},
+		480:{
+			items: 1,
+			nav: false
+		},
+		768:{
+			items: 1
+		},
+		992:{
+			items: 1
+		},
+		1200:{
+			items: 1
+		},
+	},
+	onInitialized: function() {
+		owlAction();
+	},
+	onTranslated: function() {
+		owlAction();
+	}
+
+  });
+  
+  function owlAction() {
+	$(".owl-featured-categories .owl-item").removeClass('first');
+	$(".owl-featured-categories .owl-item").removeClass('last');
+	$(".owl-featured-categories .owl-item").removeClass('before-active');
+	$(".owl-featured-categories .owl-item.active:first").addClass('first');
+	$(".owl-featured-categories .owl-item.active:last").addClass('last');
+	$('.owl-featured-categories .owl-item.active:first').prev().addClass('before-active');
+	}
+});
+</script>
+{% endif %}
